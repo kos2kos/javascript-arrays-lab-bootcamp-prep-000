@@ -8,6 +8,6 @@ function destructivelyPrependKitten(n){
   return kittens
 }
 function destructivelyRemoveLastKitten(){
-  kittens.shift(-1)
+  kittens = kittens.slice(0,-1)
   return kittens
 }
