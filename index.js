@@ -8,5 +8,5 @@ function destructivelyPrependKitten(n){
   return kittens
 }
 function destructivelyRemoveLastKitten(){
-  return kittens.shift(0,-1)
+  kittens.shift()
 }
